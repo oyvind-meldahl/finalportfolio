@@ -1,0 +1,53 @@
+body {
+    background-color: #008080; 
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar {
+    background-color: #C0C0C0; 
+    width: 100%;
+    border-bottom: 5px solid #000000;
+    z-index: 10;
+    font-size: 2rem;
+}
+
+.navbar a, .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    font-size: 2rem;
+    color: #000000; 
+}
+
+.card {
+    background-color: #C0C0C0; 
+    border-color: #000000; 
+    box-shadow: 5px 5px 0px 0px #000000; 
+    height: 100%;
+}
+
+.card img {
+    object-fit: cover;
+    max-height: 400px;
+    object-position: top;
+   
+}
+
+.btn-dark {
+    background-color: #000000;
+    border: 2px solid #FFFFFF; 
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px #888888;
+}
+
+.card-deck .col {
+    min-height: 100%;
+    display: flex;
+}
+
+.card-body {
+    border-top: 3px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
